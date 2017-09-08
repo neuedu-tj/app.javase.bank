@@ -1,10 +1,15 @@
-package storage.scope;
+package storage;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import model.WrapData;
 
 public class AccountCache {
 
 	private static final AccountCache cache = new AccountCache();
+
+	private Map<String , Object> context = new HashMap<String , Object>();
 
 	private WrapData wrapData;
 

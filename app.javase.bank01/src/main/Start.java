@@ -2,9 +2,9 @@ package main;
 
 import org.junit.Test;
 
-import dispatcher.MainDispatch;
 import service.AccountAssembleService;
 import utils.Biz;
+import dispatcher.*;
 
 public class Start {
 
@@ -16,6 +16,8 @@ public class Start {
 		accountAssembleService.loadAccounts();
 		
 		MainDispatch.dispatch(Biz.LOGIN);
+		
+		
 		
 	}
 	

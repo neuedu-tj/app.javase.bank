@@ -11,7 +11,7 @@ public class AccountAssembleHandler {
 
 	private Map<String, Account> accounts;
 
-	public AccountAssembleHandler() {
+	public AccountAssembleHandler() { //构造函数   目前负责 装配所有的账户
 		
 		Customer c1 = new Customer("A");
 		Customer c2 = new Customer("B");

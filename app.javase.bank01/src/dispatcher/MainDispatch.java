@@ -1,11 +1,13 @@
 package dispatcher;
 
 import service.AccountService;
+import service.MainService;
 import utils.Biz;
 
-public class MainDispatch {
+ public class MainDispatch {
 
 	private static AccountService accountService = new AccountService();
+	private static MainService mainService = new MainService();
 
 	public static void dispatch(String forward) {
 
@@ -18,8 +20,7 @@ public class MainDispatch {
 			break;
 			
 		case Biz.MAIN:
-
-			System.out.println("主菜单");
+			mainService.main();
 
 			break;
 

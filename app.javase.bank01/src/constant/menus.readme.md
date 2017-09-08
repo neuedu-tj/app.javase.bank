@@ -1,0 +1,2 @@
+
+	MENU_ACCOUNT_PERSONAL_TITLE = M_A_P_TITLE (个人业务的 title )

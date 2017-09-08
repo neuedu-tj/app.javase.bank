@@ -5,7 +5,7 @@ import java.util.Map;
 import handler.AccountAssembleHandler;
 import model.Account;
 import model.WrapData;
-import storage.scope.AccountCache;
+import storage.AccountCache;
 
 public class AccountAssembleService {
 	

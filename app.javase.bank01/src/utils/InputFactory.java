@@ -30,7 +30,6 @@ public class InputFactory {
 			break;
 		}
 
-
 		return result;
 
 	}

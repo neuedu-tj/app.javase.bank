@@ -3,7 +3,7 @@ package handler;
 import java.util.Map;
 
 import model.Account;
-import storage.scope.AccountCache;
+import storage.AccountCache;
 
 public class AccountHandler {
 
